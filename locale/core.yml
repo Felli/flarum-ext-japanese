@@ -9,23 +9,23 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      developer_text: "デベロッパーの方は、<a>ドキュメントを読んで</a>、独自の拡張機能を構築することができます。"
+      install_text: "その間、<a> Flarumコミュニティサイト</a>で拡張機能を探し、Composerを使用して手動でインストールすることができます。"
+      temporary_text: "ある日、フォーラムにエクステンションを簡単に追加することができます。 したがって、私たちは生態系を構築しています！"
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_header_heading: Custom Header
-      custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      edit_css_button: Edit Custom CSS
-      edit_header_button: Edit Custom Header
-      enter_hex_message: Please enter a hexadecimal color code.
+      colored_header_label: 色付きヘッダー
+      colors_heading: 色
+      colors_text: "あなたのフォーラムのテーマに2色を選んでください。 最初の1つはハイライトカラーとして使用され、2つ目は背景要素のスタイルに使用されます。"
+      custom_header_heading: カスタムヘッダー
+      custom_header_text: "Flarum自身のヘッダーの上に、ページの一番上に表示するHTMLを追加します。"
+      custom_styles_heading: カスタムスタイル
+      custom_styles_text: Flarumのデフォルトスタイルの上に適用される独自のLESS / CSSコードを追加して、フォーラムの外観をカスタマイズします。
+      dark_mode_label: ダークモード
+      edit_css_button: 編集カスタムCSS
+      edit_header_button: カスタムヘッダーの編集
+      enter_hex_message: 16進数のカラーコードを入力してください。
       favicon_heading: Favicon
       favicon_text: Upload an image to be displayed as the forum's shortcut icon.
       logo_heading: Logo
