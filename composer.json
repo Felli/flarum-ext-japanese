@@ -15,14 +15,14 @@
             "title": "Japanese",
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#00247d",
+                "backgroundColor": "#fff",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
         },
         "flarum-locale": {
-            "code": "en",
-            "title": "Japanese"
+            "code": "ja_jp",
+            "title": "日本語"
         }
     }
 }
