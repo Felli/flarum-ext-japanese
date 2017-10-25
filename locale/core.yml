@@ -27,54 +27,54 @@ core:
       edit_header_button: カスタムヘッダーの編集
       enter_hex_message: 16進数のカラーコードを入力してください。
       favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
+      favicon_text: フォーラムのショートカットアイコンとして表示される画像をアップロードする.
       logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      logo_text: フォーラムのタイトルの代わりに表示される画像をアップロードします。
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
-      saved_message: Your changes were saved.
+      default_language_heading: 既定の言語
+      forum_description_heading: フォーラムの説明
+      forum_description_text: コミュニティを説明する短い文または2つを入力します。これは、メタタグに表示され、検索エンジンに表示します。
+      forum_title_heading: フォーラムのタイトル
+      home_page_heading: ホームページ
+      home_page_text: "ユーザーがフォーラムにアクセスしたときに最初に表示されるページを選択します。カスタム値を入力する場合は、フォーラムルートに対する相対パスを使用します。"
+      saved_message: 変更内容が保存されました。
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_heading: ウェルカムバナー
+      welcome_banner_text: [すべてのディスカッション] ページのバナーに表示されるテキストを構成します。あなたのフォーラムにゲストを歓迎するためにこれを使用します。
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
-      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
-      welcome_text: "Welcome to Flarum Beta!"
+      beta_warning_text: "この <strong> ベータソフトウェアの </strong> は、私たちはそれをテストし、それを改善することができます主に提供されています;本番では使ってはいけない」。
+      contributing_text: "バグを探して、貢献したいですか?<a> 寄稿ドキュメント </a> を読んでください。
+      extension_text: "拡張機能の開発に興味がありますか?<a> 拡張ドキュメント </a> を参照してください。
+      features_text: "機能を改善するためのアイデアを得た?<a> の機能タグ </a> の下にそれについてお聞かせください。
+      support_text: "バグを発見?<a> サポートタグ </a> の下で、私たちのフォーラムで、それを報告してください。
+      troubleshooting_text: "問題を抱えて?<a> のトラブルシューティングドキュメント </a> の指示に従ってください。
+      version_text: "Flarum を試してくれてありがとう!バージョン {バージョン} を実行しています。
+      welcome_text: "ようこそ Flarum ベータへ!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "Flarum の <a> のデフォルトのスタイル </a> の上に適用される独自の以下/CSS コードを追加することによって、フォーラムの外観をカスタマイズします。"
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: カスタム CSS の編集
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
-      submit_button: => core.ref.save_changes
-      title: Create Group
+      color_label: カラー
+      delete_button: グループの削除
+      delete_confirmation: "このグループを削除してもよろしいですか?グループメンバーは削除されません。
+      icon_label: アイコン
+      icon_text: "任意の <a> FontAwesome </a> のアイコンクラスの名前を入力し、<em> </em> の fa-<code> の接頭辞をせずに"。
+      name_label: 名前
+      plural_placeholder: 複数 (改造など)
+      singular_placeholder: 特異 (例えば Mod)
+      submit_button: = > core.ref.save_changes
+      title: グループの作成
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -84,19 +84,19 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
-      addresses_heading: Addresses
-      driver_label: Driver
-      encryption_label: Encryption
-      from_label: Sender
-      heading: => core.ref.email
-      host_label: Host
-      password_label: => core.ref.password
-      port_label: Port
-      server_heading: SMTP Server
-      submit_button: => core.ref.save_changes
-      text: Configure the SMTP settings and addresses your forum will use to send email.
-      username_label: => core.ref.username
+      account_heading: SMTPアカウント
+      addresses_heading: アドレス
+      driver_label: ドライバ
+      encryption_label: 暗号化
+      from_label: 送信者
+       heading: => core.ref.email
+       host_label: ホスト
+       password_label: => core.ref.password
+       port_label: ポート
+       server_heading: SMTPサーバー
+       submit_button: => core.ref.save_changes
+       title: フォーラムが電子メールの送信に使用するSMTP設定とアドレスを設定します。
+       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
