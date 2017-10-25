@@ -1,5 +1,5 @@
 {
-	"name": "flarum/flarum-ext-japanese",
+	"name": "felli/flarum-ext-japanese",
 	"type": "flarum-extension",
 	"description": "Japanese language pack.",
 	"keywords": ["extension", "flarum", "japanese", "locale", "translation"],
