@@ -1,28 +1,36 @@
 {
-    "name": "flarum/flarum-ext-japanese",
-    "type": "flarum-extension",
-    "description": "Japanese language pack.",
-    "keywords": ["locale"],
-    "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0-beta.7"
+	"name": "flarum/flarum-ext-japanese",
+	"type": "flarum-extension",
+	"description": "Japanese language pack.",
+	"keywords": ["extension", "flarum", "japanese", "locale", "translation"],
+	"license": "MIT",
+	"authors": [{
+		"name": "Sarah Tsumayoi",
+		"email": "tsuharusarah873@gmail.com"
+	}],
+    "support": {
+        "issues": "https://github.com/felli/flarum-ext-japanese/issues",
+        "source": "https://github.com/felli/flarum-ext-japanese"
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.1.x-dev"
-        },
-        "flarum-extension": {
-            "title": "Japanese",
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#fff",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "ja_jp",
-            "title": "日本語"
-        }
-    }
+	"require": {
+		"flarum/core": "^0.1.0-beta.7"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Japanese",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#fff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "ja_jp",
+			"title": "日本語"
+		}
+	}
 }
