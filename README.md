@@ -3,5 +3,8 @@
 # Japanese Language Pack for Flarum
 
 ## Installation
+To install use [Bazaar](https://github.com/flagrow/bazaar) or Composer
+
+`composer require felli/flarum-ext-japanese`
 
 This language pack is bundled with [Flarum](http://flarum.org/).
