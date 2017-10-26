@@ -1,8 +1,24 @@
 # .scrutinizer.yml
 
 checks:
-    php: true
+    php:
         code_rating: true
         duplication: true
-   javascript: true
+    javascript: true
+filter: {  }
+coding_style:
+    php:
+        spaces:
+            around_operators:
+                concatenation: true
+build:
+    nodes:
+        tests: true
+        analysis:
+            tests:
+                override:
+                    -
+                        command: phpcs-run
+                        use_website_config: true
+                    - php-scrutinizer-run
  
