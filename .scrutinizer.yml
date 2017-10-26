@@ -4,11 +4,5 @@ checks:
     php: true
         code_rating: true
         duplication: true
-
-javascript: true
- filter: {  }
- coding_style:
-    php:
-        spaces:
-            around_operators:
-                concatenation: true
+   javascript: true
+ 
