@@ -11,10 +11,4 @@ build:
         analysis:
             tests:
                 override:
-                    -
-                command: 'vendor/bin/phpunit --coverage-clover=some-file'
-                coverage:
-
-                    file: 'locale/core.yml'
-                    format: 'clover'
                     - php-scrutinizer-run
