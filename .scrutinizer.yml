@@ -12,6 +12,5 @@ build:
             tests:
                 override:
                     -
-                        use_website_config: true
                     - php-scrutinizer-run
  
