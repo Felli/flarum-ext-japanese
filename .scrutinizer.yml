@@ -4,13 +4,7 @@ checks:
     php:
         code_rating: true
         duplication: true
-    javascript: true
-filter: {  }
-coding_style:
-    php:
-        spaces:
-            around_operators:
-                concatenation: true
+
 build:
     nodes:
         tests: true
