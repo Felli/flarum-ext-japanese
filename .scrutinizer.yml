@@ -21,8 +21,6 @@ checks:
         avoid_superglobals: false
         security_vulnerabilities: false
         no_exit: false
-        code_rating: true
-        duplication: true
     javascript: true
 filter: {  }
 coding_style:
