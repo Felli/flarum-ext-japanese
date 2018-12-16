@@ -16,14 +16,3 @@ coding_style:
         spaces:
             around_operators:
                 concatenation: true
-build:
-    nodes:
-        tests: true
-        analysis:
-            tests:
-                override:
-                    -
-                        command: phpcs-run
-                        use_website_config: true
-                    - php-scrutinizer-run
-                    - js-scrutinizer-run
