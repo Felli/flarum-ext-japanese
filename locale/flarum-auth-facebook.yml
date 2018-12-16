@@ -1,21 +1,21 @@
 flarum-auth-facebook:
 
   ##
-  # UNIQUE KEYS - The following keys are used in only one location each.
+  # ユニークキー - 以下のキーはそれぞれ1つの場所でのみ使用されます。
   ##
 
-  # Translations in this namespace are used by the admin interface.
+  # この名前空間内の翻訳は、管理インターフェースによって使用されます。
   admin:
 
-    # These translations are used in the Facebook Settings modal dialog.
+    # これらの翻訳は、Facebookの設定モーダルダイアログで使用されます。
     facebook_settings:
-      app_id_label: アプリID
+      app_id_label: アプリケーションID
       app_secret_label: アプリの秘密
       title: Facebookの設定
 
-  # Translations in this namespace are used by the forum user interface.
+  # この名前空間内の翻訳は、フォーラムユーザーインターフェイスで使用されます。
   forum:
 
-    # These translations are used in the Log In modal dialog.
+    # これらの翻訳は、[Log In]モーダルダイアログで使用されます。
     log_in:
       with_facebook_button: Facebookでログイン
