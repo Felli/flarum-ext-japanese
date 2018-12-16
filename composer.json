@@ -4,14 +4,6 @@
     "description": "Japanese language pack.",
     "keywords": ["locale"],
     "license": "MIT",
-    "authors": {
-         "name": "Sarah Tsumayoi",
-         "email": "tsuharusarah873@gmail.com"
-    },
-    "support": {
-         "issues": "https://github.com/felli/lang-japanese/issues",
-         "source": "https://github.com/felli/lang-japanese"
-    },
     "require": {
         "flarum/core": "^0.1.0-beta.8"
     },
