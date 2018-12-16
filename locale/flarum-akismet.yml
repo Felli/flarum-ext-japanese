@@ -1,22 +1,21 @@
 flarum-akismet:
 
   ##
-  # UNIQUE KEYS - The following keys are used in only one location each.
+  # ユニークキー - 以下のキーはそれぞれ1つの場所でのみ使用されます。
   ##
 
-  # Translations in this namespace are used by the admin interface.
+  # この名前空間の翻訳は、管理インターフェースによって使用されます。
   admin:
 
-    # These translations are used in the Akismet Settings modal dialog.
+    # これらの翻訳は、Akismet Settingsモーダルダイアログで使用されます。
     akismet_settings:
       api_key_label: APIキー
       title: Akismetの設定
 
-  # Translations in this namespace are used by the forum user interface.
+  # この名前空間の翻訳は、フォーラムユーザーインターフェイスで使用されます。
   forum:
 
-    # These translations are used by the frame displayed around flagged posts.
+    # これらの翻訳は、フラグ付き投稿の周りに表示されたフレームによって使用されます。
     post:
-      akismet_flagged_text: Akismetがスパムとして指定されました
-      not_spam_button: スパムじゃない
-
+      akismet_flagged_text: Akismetがスパムとして指定しました
+      not_spam_button: スパムではない
