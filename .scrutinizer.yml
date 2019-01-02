@@ -9,3 +9,10 @@ coding_style:
         spaces:
             around_operators:
                 concatenation: true
+build:
+     nodes:
+         analysis:
+             tests:
+                 override:
+                     - php-scrutinizer-run
+                     - js-scrutinizer-run
