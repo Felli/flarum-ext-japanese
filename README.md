@@ -1,4 +1,4 @@
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Felli/lang-japanese/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Felli/lang-japanese/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/Felli/lang-japanese/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Felli/lang-japanese/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/Felli/lang-japanese/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Felli/lang-japanese/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Felli/lang-japanese/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Felli/lang-japanese/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/Felli/lang-japanese/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Felli/lang-japanese/build-status/master)
 
 # Japanese Language Pack for Flarum
 
